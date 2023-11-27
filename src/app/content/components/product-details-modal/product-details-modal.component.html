@@ -1,0 +1,31 @@
+<div *ngIf="selectedProduct$ | async as selectedProduct">
+    <div class="close-button">
+        <button (click)="close()" mat-icon-button>
+            <mat-icon class="close-icon">close</mat-icon>
+        </button>
+    </div>
+    <div class="product-information-wrapper">
+        <div class="product-image-wrapper">
+            <img [src]="'../../../assets/images/' + selectedProduct.image" alt="Product image" class="cart-item-image"
+                 mat-card-image>
+        </div>
+        <mat-card-content>
+            <div>
+                <mat-card-title class="product-name">{{ selectedProduct.name }}</mat-card-title>
+                <mat-card-subtitle class="product-price-wrapper">Price: <span
+                        class="price">{{ selectedProduct.price | currency }}</span></mat-card-subtitle>
+                <app-rating [value]="selectedProduct.customerRating"/>
+
+                <button (click)="addToCart()" class="add-to-cart-btn">Buy now</button>
+                <div>
+                    <p class="description-label">Description:</p>
+                    <p>{{ selectedProduct.description }}</p>
+                </div>
+            </div>
+            <mat-divider/>
+            <div *ngFor="let review of selectedProduct.reviews">
+                <app-product-customer-review [review]="review"/>
+            </div>
+        </mat-card-content>
+    </div>
+</div>

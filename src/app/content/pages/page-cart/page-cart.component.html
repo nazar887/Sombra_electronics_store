@@ -1,0 +1,23 @@
+<div *ngIf="cartProducts$ | async as cartProducts" class="cart-wrapper">
+    <div class="product-list">
+        <div *ngIf="cartProducts.length > 0; else emptyCartMessage">
+            <div *ngFor="let product of cartProducts" class ="cart-cards">
+                <app-cart-summary-card [product]="product"  />
+            </div>
+        </div>
+        <ng-template #emptyCartMessage>
+            <div class="empty-cart-layout">
+                <p>Your cart is empty 🛒</p>
+                <button (click)="navigateToMain()" class="back-to-catalogue-btn" mat-raised-button>
+                    Back to catalogue
+                </button>
+            </div>
+        </ng-template>
+    </div>
+    <div *ngIf="cartProducts.length > 0" class="order-form">
+        <app-summary-order-card
+                [totalCartItem]="cartProducts.length"
+                [totalSuma]="cartProducts | calculateTotalPrice"
+        />
+    </div>
+</div>

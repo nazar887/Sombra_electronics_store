@@ -1,0 +1,25 @@
+<mat-card class="review-card-wrapper">
+    <mat-card-content>
+        <div class="user-information-wrapper">
+            <img alt="User avatar" class="user-avatar" mat-card-avatar
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgfTvKmQZl3ojuF0C4gijNXjYZPGvmmpsxSg&usqp=CAU">
+            <div class="user-information">
+                <p class="user-name">{{review.user}}</p>
+                <app-rating [value]="review.rating"/>
+
+            </div>
+        </div>
+        <mat-divider/>
+        <div>
+            <ng-template [ngIf]="!showFullComment">
+                <p>{{ review.comment | truncate:300}}</p>
+            </ng-template>
+            <ng-template [ngIf]="showFullComment">
+                <p>{{ review.comment }}</p>
+            </ng-template>
+            <button (click)="showFullComment = !showFullComment" *ngIf="shouldDisplayButton()" aria-label="Toggle Comment View">
+                {{ showFullComment ? 'Close' : 'More Details' }}
+            </button>
+        </div>
+    </mat-card-content>
+</mat-card>

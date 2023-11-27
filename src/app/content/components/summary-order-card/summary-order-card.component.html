@@ -1,0 +1,18 @@
+<div class="total-bill-wrapper">
+    <mat-card class="total-bill-card">
+        <mat-card-content class="bill-content-wrapper">
+            <mat-card-header class="bill-information">
+                <mat-card-subtitle class="item-count">
+                    {{totalCartItem}} item in cart
+                </mat-card-subtitle>
+                <mat-card-title class="bill-amount">
+                    {{ totalSuma | currency }}
+                </mat-card-title>
+            </mat-card-header>
+            <mat-divider></mat-divider>
+            <mat-card-actions class="bill-action-wrapper">
+                <button class="bill-order-btn" color="warn" mat-raised-button>Order</button>
+            </mat-card-actions>
+        </mat-card-content>
+    </mat-card>
+</div>

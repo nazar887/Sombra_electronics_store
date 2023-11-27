@@ -1,0 +1,44 @@
+<div class="navigation-layout">
+    <app-searching-bar></app-searching-bar>
+    <app-filtration></app-filtration>
+</div>
+
+<div *ngIf="{ filteredProducts: filteredProducts$ | async,
+               loading: loading$ | async,
+               error: error$ | async } as data; else loading"
+>
+    <div *ngIf="data.loading">
+        <mat-spinner class="loading-spinner"></mat-spinner>
+    </div>
+
+    <div *ngIf="data.error">
+        An error occurred: {{ data.error }}
+    </div>
+
+    <div *ngIf="!data.loading && !data.error">
+        <div *ngIf="data.filteredProducts.length > 0; else noItemsFound" class="grid-container">
+            <app-product-card
+                    *ngFor="let product of data.filteredProducts | slice: (page - 1) * pageSize : page * pageSize"
+                    [product]="product"
+                    class="product-card"
+            ></app-product-card>
+        </div>
+
+        <ng-template #noItemsFound>
+            <p>No items found.</p>
+        </ng-template>
+
+        <mat-paginator
+                (page)="onPageChange($event)"
+                [hidePageSize]="true"
+                [length]="data.filteredProducts.length"
+                [pageSizeOptions]="[5, 10, 25, 100]"
+                [pageSize]="pageSize"
+                aria-label="Select page"
+        ></mat-paginator>
+    </div>
+</div>
+
+<ng-template #loading>
+    <mat-spinner class="loading-spinner"></mat-spinner>
+</ng-template>

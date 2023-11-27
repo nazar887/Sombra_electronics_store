@@ -1,0 +1,15 @@
+<mat-toolbar class="toolbar-wrapper">
+    <span class="header-title">Sombra Test</span>
+    <div class="demo-section" *ngIf="(cartProducts$ | async) as cartProducts" >
+        <button *ngIf="cartProducts.length > 0"
+                [matBadge]="cartProducts.length"
+                class="cart-redirect-btn"
+                mat-raised-button
+                matBadgeColor="accent"
+                matBadgePosition="after"
+                routerLink="/cart"
+        >
+            <mat-icon class="cart-icon">shopping_cart</mat-icon>
+        </button>
+    </div>
+</mat-toolbar>

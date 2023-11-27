@@ -1,0 +1,27 @@
+<div class="filtration-wrapper">
+    <div>
+        <mat-form-field>
+            <mat-label>Select Type</mat-label>
+            <mat-select [(ngModel)]="selectedType" (selectionChange)="onTypeChange()">
+                <mat-option value="">All</mat-option>
+                <mat-option *ngFor="let type of productTypes" [value]="type">{{ type }}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+    <div class="price-filtration">
+        <button mat-raised-button color="primary" [matMenuTriggerFor]="menu">Price</button>
+        <mat-menu #menu="matMenu">
+            <div *ngFor="let price of priceRanges">
+                <label>
+                    <input
+                            (change)="updateSelectedMaxPrice(price)"
+                            [checked]="selectedMaxPrice === price"
+                            [value]="price"
+                            type="checkbox"
+                    />
+                    {{ price | currency: 'USD' }}
+                </label>
+            </div>
+        </mat-menu>
+    </div>
+</div>

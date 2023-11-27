@@ -1,0 +1,19 @@
+.toolbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+}
+
+.cart-redirect-btn {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.cart-icon, .header-title {
+  color: green;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 20px;
+}

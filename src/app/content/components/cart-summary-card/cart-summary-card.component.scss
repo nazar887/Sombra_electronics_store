@@ -1,0 +1,17 @@
+.cart-item-image {
+  max-height: 5rem;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.car-item-main-information {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

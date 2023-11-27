@@ -1,0 +1,19 @@
+.filtration-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-filtration {
+  margin: 10px;
+}
+
+@media screen and (max-width: 780px) {
+
+  .filtration-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

@@ -1,0 +1,32 @@
+.grid-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 770px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, calc(50%));
+  }
+
+  .product-card {
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 1168px) {
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, calc(33.33% - 16px));
+  }
+
+  .product-card {
+    margin: 0 auto;
+  }
+
+}

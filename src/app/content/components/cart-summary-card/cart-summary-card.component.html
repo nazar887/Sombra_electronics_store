@@ -1,0 +1,17 @@
+<mat-card class="card-item-wrapper">
+    <mat-card-content class="content-section">
+        <div class="car-item-main-information">
+            <img [src]="'../../../assets/images/' + product.image" alt="Product image" class="cart-item-image" mat-card-image>
+            <div class="info-section">
+                <mat-card-title>{{product.name}}</mat-card-title>
+                <app-rating [value]="product.customerRating"/>
+            </div>
+        </div>
+
+    <div>
+        <div class="price-section">
+            {{product.price | currency}}
+        </div>
+    </div>
+    </mat-card-content>
+</mat-card>

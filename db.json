@@ -1,0 +1,404 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Xiaomi TV A2 32",
+      "price": 299,
+      "type": "TVs",
+      "customerRating": 3,
+      "image": "xiaomi_tv_a2_32.webp",
+      "description": "The Xiaomi TV A2 32 TV based on Android TV 11 provides instant access to movies and shows for every taste. The built-in Google Assistant completely changes the concept of content management. Thanks to Dolby Audio and DTS Virtual:X Sound, you are guaranteed a cinema-like experience, and frameless design and high HD resolution allow you to fully immerse yourself in viewing.",
+      "reviews": [
+        {
+          "user": "Customer1",
+          "comment": "Great phone!",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "SAMSUNG Galaxy S23 ",
+      "price": 565.95,
+      "type": "Phones",
+      "customerRating": 3,
+      "image": "samsung_galaxy_s23.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+
+    {
+      "id": "3",
+      "name": "TV LG 50UR81006LJ",
+      "price": 530.53,
+      "type": "TVs",
+      "customerRating": 3,
+      "image": "lg_50UR81006LJ.webp",
+      "description": "The Xiaomi TV A2 32 TV based on Android TV 11 provides instant access to movies and shows for every taste. The built-in Google Assistant completely changes the concept of content management. Thanks to Dolby Audio and DTS Virtual:X Sound, you are guaranteed a cinema-like experience, and frameless design and high HD resolution allow you to fully immerse yourself in viewing.",
+      "reviews": [
+        {
+          "user": "Customer1",
+          "comment": "Great phone!",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "TV HISENSE 50A6BG",
+      "price": 565.95,
+      "type": "TVs",
+      "customerRating": 3,
+      "image": "hisense_50A6BG.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "TV GAZER TV43-FN1",
+      "price": 299,
+      "type": "TVs",
+      "customerRating": 3,
+      "image": "gazer_TV43-FN1.webp",
+      "description": "The Xiaomi TV A2 32 TV based on Android TV 11 provides instant access to movies and shows for every taste. The built-in Google Assistant completely changes the concept of content management. Thanks to Dolby Audio and DTS Virtual:X Sound, you are guaranteed a cinema-like experience, and frameless design and high HD resolution allow you to fully immerse yourself in viewing.",
+      "reviews": [
+        {
+          "user": "Customer1",
+          "comment": "Great phone!",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Apple Iphone 12 128GB",
+      "price": 895.99,
+      "type": "Phones",
+      "customerRating": 3,
+      "image": "APPLE_iPhone_12_128GB_.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Apple Iphone 13 128GB",
+      "price": 765.95,
+      "type": "Phones",
+      "customerRating": 3,
+      "image": "APPLE_iPhone_13_128GB_Starlight.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "APPLE iPhone_14 Plus 512GB",
+      "price": 665.95,
+      "type": "Phones",
+      "customerRating": 3,
+      "image": "APPLE_iPhone_14_Plus_512GB.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "APPLE iPhone 15",
+      "price": 465.95,
+      "type": "Phones",
+      "customerRating": 3,
+      "image": "APPLE_iPhone_15.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "BEKO RCNA366I30W",
+      "price": 165.95,
+      "type": "Appliances",
+      "customerRating": 3,
+      "image": "BEKO_RCNA366I30W.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "BEKO RCSA240K20W",
+      "price": 295.95,
+      "type": "Appliances",
+      "customerRating": 3,
+      "image": "BEKO_RCSA240K20W.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "HAIER HSR3918FIMP",
+      "price": 575.95,
+      "type": "Appliances",
+      "customerRating": 3,
+      "image": "HAIER_HSR3918FIMP.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "INDESIT LI8S1ES",
+      "price": 515.15,
+      "type": "Appliances",
+      "customerRating": 3,
+      "image": "INDESIT_LI8S1ES.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "WHIRLPOOL ADN350S",
+      "price": 345,
+      "type": "Appliances",
+      "customerRating": 3,
+      "image": "WHIRLPOOL_ADN350S.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Game Call of Duty Modern Warfare III for PS5",
+      "price": 565.95,
+      "type": "Video Games",
+      "customerRating": 3,
+      "image": "Game_Call_of_Duty_Modern_Warfare+III_for_PS5.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Game Dark Soul 3",
+      "price": 565.95,
+      "type": "Video Games",
+      "customerRating": 3,
+      "image": "Game_Dark_Soul_3.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Game EA SPORTS FC 24 for PC",
+      "price": 869.45,
+      "type": "Video Games",
+      "customerRating": 3,
+      "image": "Game_EA_SPORTS_FC_24_for_PC.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Game Grand Theft Auto V Premium",
+      "price": 435.15,
+      "type": "Video Games",
+      "customerRating": 3,
+      "image": "Game_Grand_Theft_Auto_V_Premium.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Game NHL 24 for Sony",
+      "price": 565.95,
+      "type": "Video Games",
+      "customerRating": 3,
+      "image": "Game_NHL_24_for_Sony.webp",
+      "description": "SAMSUNG GALAXY S23 5G S911W 128GB (UNLOCKED) CANADIAN MODEL. SAMASUNG GALAXY S23 5G - SM-S911W (UNLOCKED) BLACK. Don't worry, we're here to help. FULL SAMSUNG WARRANTY INCLUDED. NOT INCLUDED. SIM CARD IS.",
+      "reviews": [
+        {
+          "user": "Devid Johnson",
+          "comment": "I like the S23. Previously I had S9 and it also was a very good phone. Unfortunately, it started malfunctioning recently so I had to get a new phone. I like the small size - easily fits in my pockets. I specifically decided to get S23 for that reason - one of the few phones left with a small form factor. Battery life seems to be about 3 days when not used frequently. The screen is bright and sharp. Great picture quality even in low light (which has been the hallmark for Samsung with the Galaxy phones). Although I have not taken many pictures yet. I miss not getting a charger and headphones, but unfortunately that has become the standard now. If another company wants to beat Smsung and Apple, one of the advantages could be if they include accesories. Overall excellent phone.",
+          "rating": 5
+        },
+        {
+          "user": "Customer2",
+          "comment": "Fast and responsive.",
+          "rating": 4
+        }
+      ]
+    }
+  ]
+}
